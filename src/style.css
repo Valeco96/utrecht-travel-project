@@ -29,6 +29,7 @@ section {
 
 .grid-3-col {
   grid-template-columns: 1fr 2fr 2fr;
+  padding-bottom: 10px;
 }
 
 .grid-3-columns {
@@ -200,6 +201,10 @@ footer li {
 footer a {
   color: whitesmoke;
   opacity: 0.7;
+}
+
+.bottom-text {
+  padding: 60px 100px;
 }
 
 @media (max-width: 960px) {
