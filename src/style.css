@@ -15,7 +15,7 @@ section {
 }
 
 .secondary {
-  background-color: #f8f8f8;
+  background-color: #ecdfff;
 }
 
 .grid {
@@ -49,6 +49,7 @@ section {
 .img-responsive {
   max-width: 100%;
   display: block;
+  border-radius: 5px;
 }
 
 .btn {
@@ -65,8 +66,8 @@ section {
 }
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
-    url("../images/Utrecht-foto-header.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+    url("../images/utrecht-park.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: whitesmoke;
@@ -118,6 +119,7 @@ main {
 #grid-image {
   width: 500px;
   max-width: 100%;
+  border-radius: 10px;
 }
 
 main h2 {
