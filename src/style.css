@@ -49,6 +49,7 @@ section {
   background-color: white;
   margin-bottom: 30px;
   margin-top: 60px;
+  border-radius: 5px;
 }
 
 .card-header.grid {
@@ -62,7 +63,23 @@ section {
 .img-responsive {
   width: 100%;
   display: block;
-  border-radius: 5px;
+  background-position: center;
+  background-size: cover;
+}
+
+#img-1 {
+  background-image: url("../images/cafes/olivier-cafe.avif");
+}
+
+#img-2 {
+  background-image: url("../images/cafes/broei-werken-medium.webp");
+}
+
+#img-3 {
+  background-image: url("../images/cafes/beb-cafe.webp");
+}
+
+.img-responsive {
 }
 
 .btn {
@@ -132,9 +149,12 @@ main {
 }
 
 #grid-image {
-  width: 500px;
-  max-width: 100%;
+  border: 1px solid #272044;
+  height: 550px;
+  background-size: cover;
+  margin: 8px;
   border-radius: 10px;
+  background-image: url("../images/Utrecht-foto-header.jpg");
 }
 
 main h2 {
